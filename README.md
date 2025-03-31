@@ -82,9 +82,10 @@ Genres such as Jazz, Folk, Indie, and R&B showed zero F1 scores in both strategi
 
 The notebook includes performance visualizations comparing precision, recall, and F1 across genres for both strategies. This helps illustrate where the model performs best and where it fails.
 
-## Suggestions for Improvement (additional)
-
-- Curate stronger few-shot examples (avoid random sampling).
+## Suggestions for Improvement 
+- Enhance few-shot examples: Use around 20 diverse, genre-defining lyrics per class.
+- Data augmentation: Collect more samples for low-performing genres or synthesize lyrics with genre-specific keywords.
+- Hybrid approach: Combine zero-shot for strong genres (e.g., Hip-Hop) with few-shot for ambiguous ones (e.g., Indie). Curate stronger few-shot examples (avoid random sampling).
 - Fine-tune the model on labeled lyrics.
 - Apply label normalization and filtering.
 - Explore other prompting strategies (e.g., chain-of-thought).
