@@ -69,8 +69,10 @@ We used both macro-averaged metrics and per-genre analysis.
 
 | Strategy    | Macro Precision | Macro Recall | Macro F1 |
 |-------------|-----------------|---------------|----------|
-| Zero-Shot   | 0.113           | 0.098         | 0.086    |
-| Few-Shot    | 0.074           | 0.033         | 0.038    |
+| Zero-Shot   | 0.099           | 0.091         | 0.080    |
+| Few-Shot    | 0.031           | 0.008         | 0.010    |
+
+
 
 Conclusion: Zero-shot prompting outperformed few-shot in overall metrics, especially in common genres like Rock, Pop, and Hip-Hop. Few-shot prompting struggled likely due to randomly selected examples.
 
